@@ -44,10 +44,6 @@ export default function AboutSection() {
                   <Link href={social.url} target="_blank">
                     {social.name === 'Email' ? (
                       <RiMailLine size={16} />
-                    ) : social.name === 'GitHub' ? (
-                      <RiGithubFill size={16} />
-                    ) : social.name === 'Twitter' ? (
-                      <RiTwitterXLine size={16} />
                     ) : social.name === 'Google Scholar' ? (
                       <RiGoogleFill size={16} />
                     ) : social.name === 'ORCID' ? (

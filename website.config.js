@@ -6,11 +6,6 @@ export const personalInfo = {
   universityWebsite: 'https://bschool.nus.edu.sg/',
   socialMedia: [
     { name: 'Email', url: 'mailto:zifan.wang@u.nus.edu' },
-    { name: 'Twitter', url: 'https://twitter.com/anxndsgn' },
-    {
-      name: 'GitHub',
-      url: 'https://github.com/anxndsgn/academic-homepage-template',
-    },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/wang-zifan' },
     { name: 'ORCID', url: 'https://orcid' },
     { name: 'Google Scholar', url: 'https://scholar.google.com' },
