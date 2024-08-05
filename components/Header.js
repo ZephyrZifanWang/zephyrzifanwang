@@ -11,6 +11,8 @@ import { Button } from '@/components/ui/button';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { navigations } from '@/website.config';
+import React from 'react';
+import '@/app/globals.css';
 
 export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -40,8 +42,8 @@ export default function Header() {
     >
       <nav className="flex justify-between m-auto md:w-[40rem] w-full py-4 text-lg px-4 h-auto">
         <Button asChild variant="ghost">
-          <Link href={'/'} className="font-semibold">
-            {personalInfo.name}
+          <Link href={'/'} className="font-helective font-semibold">
+            {personalInfo.name.toUpperCase()}
           </Link>
         </Button>
         <div className="flex">
